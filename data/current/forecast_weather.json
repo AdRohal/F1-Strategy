@@ -1,0 +1,23 @@
+[
+    {
+      "timestamp": "2024-07-31 15:00",
+      "temperature": 27,
+      "humidity": 75,
+      "wind_speed": 4,
+      "precipitation": 0.5
+    },
+    {
+      "timestamp": "2024-07-31 16:00",
+      "temperature": 26,
+      "humidity": 78,
+      "wind_speed": 3,
+      "precipitation": 1.0
+    },
+    {
+      "timestamp": "2024-07-31 17:00",
+      "temperature": 25,
+      "humidity": 80,
+      "wind_speed": 3,
+      "precipitation": 2.0
+    }
+  ]  
