@@ -1,6 +1,0 @@
-timestamp,tire_type,track_condition,laps,duration
-2024-07-31 10:00,soft,dry,20,25
-2024-07-31 11:00,medium,dry,30,35
-2024-07-31 12:00,hard,dry,40,45
-2024-07-31 13:00,intermediate,wet,15,18
-2024-07-31 14:00,wets,wet,10,12

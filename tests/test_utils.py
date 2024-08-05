@@ -2,7 +2,7 @@
 
 import unittest
 from unittest.mock import patch
-from src.utils.fetch_weather_data import fetch_weather_data
+from src.utils.fetch_weather_data import fetch_current_weather
 from src.utils.calculate_strategy import calculate_tire_strategy
 
 class TestUtils(unittest.TestCase):
@@ -26,8 +26,8 @@ class TestUtils(unittest.TestCase):
             ]
         }
 
-        city_name = "London"
-        weather_data = fetch_weather_data(city_name)
+        lat, lon = 51.5074, -0.1278  # Coordinates for London
+        weather_data = fetch_current_weather(lat, lon)
 
         self.assertIn('main', weather_data)
         self.assertIn('temp', weather_data['main'])
