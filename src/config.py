@@ -3,7 +3,7 @@
 # API configurations
 
 WEATHER_API_URL = "http://api.openweathermap.org/data/2.5/"
-WEATHER_API_KEY = "ad596998848da7dff630da3808b00665"
+WEATHER_API_KEY = "YOUR-API-KEY-HERE"
 CURRENT_WEATHER_ENDPOINT = "weather?lat={}&lon={}&appid={}&units=metric"
 
 # File paths
